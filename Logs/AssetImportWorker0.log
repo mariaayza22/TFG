@@ -1,0 +1,560 @@
+Unity Editor version:    2021.3.18f1 (3129e69bc0c7)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 13.2.1 (Build 22D68)
+Darwin version:          22.3.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        8192 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/mariaayllonzafra/Desktop/liverScene
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+65108
+Successfully changed project path to: /Users/mariaayllonzafra/Desktop/liverScene
+/Users/mariaayllonzafra/Desktop/liverScene
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [140704369124992] Host "[IP] 192.168.1.229 [Port] 0 [Flags] 2 [Guid] 27098195 [EditorId] 27098195 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-de-Maria.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [140704369124992] Host "[IP] 192.168.1.229 [Port] 0 [Flags] 2 [Guid] 27098195 [EditorId] 27098195 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-de-Maria.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 117.72 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.18f1 (3129e69bc0c7)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/mariaayllonzafra/Desktop/liverScene/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 655 (low power)
+Metal devices available: 1
+0: Intel(R) Iris(TM) Plus Graphics 655 (low power)
+Using device Intel(R) Iris(TM) Plus Graphics 655 (low power)
+Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics 655
+Initialize mono
+Mono path[0] = '/Applications/Unity/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56167
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.003459 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 109.86 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.999 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1000ms)
+		BeginReloadAssembly (136ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (713ms)
+			LoadAssemblies (137ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (161ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (82ms)
+			SetupLoadedEditorAssemblies (395ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (110ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (219ms)
+				ProcessInitializeOnLoadMethodAttributes (56ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003056 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/mariaayllonzafra/Desktop/liverScene/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/mariaayllonzafra/Desktop/liverScene/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.472 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1473ms)
+		BeginReloadAssembly (135ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (1188ms)
+			LoadAssemblies (129ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (480ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (83ms)
+			SetupLoadedEditorAssemblies (434ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (97ms)
+				ProcessInitializeOnLoadAttributes (304ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.09 seconds
+Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3048 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (Unknown). Loaded Objects now: 3508.
+Memory consumption went from 102.3 MB to 102.3 MB.
+Total: 3.969459 ms (FindLiveObjects: 0.298230 ms CreateObjectMapping: 0.304184 ms MarkObjects: 3.181988 ms  DeleteObjects: 0.183983 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 241695.635613 seconds.
+  path: Assets/liverU.blend
+  artifactKey: Guid(20ce66e1517f341578f9746c8d958a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/liverU.blend using Guid(20ce66e1517f341578f9746c8d958a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0dc3046c7bc732f3d93fe5c8acc3772') in 2.049150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.423459 seconds.
+  path: Assets/Textures
+  artifactKey: Guid(5dc4d6b61e3944e74b70f31a433bda2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures using Guid(5dc4d6b61e3944e74b70f31a433bda2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0661664f084a7ae644b793ffe0b962a9') in 0.004976 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.068696 seconds.
+  path: Assets/Textures/Radio_BaseColor1.png
+  artifactKey: Guid(67f08672c16004aa8b143bedb7914952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Radio_BaseColor1.png using Guid(67f08672c16004aa8b143bedb7914952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c37bf3c0dd613f79f06cff1ba7f41974') in 1.334302 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 67.383005 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e55ccaa32d8e5c1de03c07a5412c8c3c') in 0.006184 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.471421 seconds.
+  path: Assets/liverU.blend
+  artifactKey: Guid(20ce66e1517f341578f9746c8d958a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/liverU.blend using Guid(20ce66e1517f341578f9746c8d958a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b6e78a72cfb0d2077ae82ab53550728') in 0.069078 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.055847 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8193726cff86800c54781cdc6d54904') in 0.007786 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002440 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/mariaayllonzafra/Desktop/liverScene/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/mariaayllonzafra/Desktop/liverScene/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.685 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1686ms)
+		BeginReloadAssembly (325ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (149ms)
+		EndReloadAssembly (1207ms)
+			LoadAssemblies (135ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (511ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (67ms)
+			SetupLoadedEditorAssemblies (460ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (340ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.92 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3043 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (44.5 KB). Loaded Objects now: 3557.
+Memory consumption went from 113.1 MB to 113.1 MB.
+Total: 5.853615 ms (FindLiveObjects: 0.753326 ms CreateObjectMapping: 0.257413 ms MarkObjects: 4.722064 ms  DeleteObjects: 0.119708 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 25579.092688 seconds.
+  path: Assets/liverModelU.blend
+  artifactKey: Guid(65272dc86cb4d4caebe2447d4d29eddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/liverModelU.blend using Guid(65272dc86cb4d4caebe2447d4d29eddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e36a0fa88d0055e80ce0761414823413') in 0.938167 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 309.357269 seconds.
+  path: Assets/liverModelU.blend
+  artifactKey: Guid(65272dc86cb4d4caebe2447d4d29eddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/liverModelU.blend using Guid(65272dc86cb4d4caebe2447d4d29eddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cfb8ed50147f95e5ff135dbe8a963ec') in 0.264038 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003157 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/mariaayllonzafra/Desktop/liverScene/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/mariaayllonzafra/Desktop/liverScene/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.936 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1967ms)
+		BeginReloadAssembly (499ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (19ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (223ms)
+		EndReloadAssembly (1260ms)
+			LoadAssemblies (181ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (531ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (69ms)
+			SetupLoadedEditorAssemblies (469ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (80ms)
+				ProcessInitializeOnLoadAttributes (335ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3043 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (64.4 KB). Loaded Objects now: 3560.
+Memory consumption went from 113.2 MB to 113.1 MB.
+Total: 6.614103 ms (FindLiveObjects: 1.056665 ms CreateObjectMapping: 0.186893 ms MarkObjects: 5.148523 ms  DeleteObjects: 0.220822 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 8742.711356 seconds.
+  path: Assets/liverModelU.blend
+  artifactKey: Guid(65272dc86cb4d4caebe2447d4d29eddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/liverModelU.blend using Guid(65272dc86cb4d4caebe2447d4d29eddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b01c8877375b2861e41bb9bd4692734') in 0.835266 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.348943 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(e956af364a99347d288d8ad2989bd9ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(e956af364a99347d288d8ad2989bd9ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0c5d6b20590098e650044e760494caf') in 0.008482 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.103628 seconds.
+  path: Assets/Materials/cavaUmat.mat
+  artifactKey: Guid(e1224ad4112854e899b0900e7c61793c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/cavaUmat.mat using Guid(e1224ad4112854e899b0900e7c61793c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a592027c0f12c10b8b3fbd1e0cef2e4') in 0.459543 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Materials/Material.004.mat
+  artifactKey: Guid(a3661073ffc9a41978ae63b5925be9d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Material.004.mat using Guid(a3661073ffc9a41978ae63b5925be9d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f5dad7b3f541bf733508f7893dc110a') in 0.035617 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Materials/portalUMat.mat
+  artifactKey: Guid(947a1262601414540b41adfc1d615ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/portalUMat.mat using Guid(947a1262601414540b41adfc1d615ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c2e444fa8ee381b65adb1c40d3e9af4') in 0.047620 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 135.799476 seconds.
+  path: Assets/Materials/New Material.mat
+  artifactKey: Guid(c169e98ade59446708178812148e3c9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/New Material.mat using Guid(c169e98ade59446708178812148e3c9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3a92795570b007665b14559b34206cb') in 0.027451 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 64.332210 seconds.
+  path: Assets/liverModelU.blend
+  artifactKey: Guid(65272dc86cb4d4caebe2447d4d29eddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/liverModelU.blend using Guid(65272dc86cb4d4caebe2447d4d29eddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b3461163a5a1f0a9bc71f4c8c6dd9f7') in 0.257490 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 159.308238 seconds.
+  path: Assets/liverU.fbx
+  artifactKey: Guid(2e468f54b6a254dda8ee1cfbf8f4306c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/liverU.fbx using Guid(2e468f54b6a254dda8ee1cfbf8f4306c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cfd34423a994bf9ee8ffffd696c2f2e') in 1.529408 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 215.332637 seconds.
+  path: Assets/liverModelU.blend
+  artifactKey: Guid(65272dc86cb4d4caebe2447d4d29eddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/liverModelU.blend using Guid(65272dc86cb4d4caebe2447d4d29eddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fb702beedb97124e0452165885429ce') in 0.336505 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002558 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/mariaayllonzafra/Desktop/liverScene/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/mariaayllonzafra/Desktop/liverScene/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.905 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1906ms)
+		BeginReloadAssembly (476ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (238ms)
+		EndReloadAssembly (1298ms)
+			LoadAssemblies (225ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (582ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (453ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (66ms)
+				ProcessInitializeOnLoadAttributes (344ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3045 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (64.5 KB). Loaded Objects now: 3565.
+Memory consumption went from 121.5 MB to 121.5 MB.
+Total: 5.095571 ms (FindLiveObjects: 0.511917 ms CreateObjectMapping: 0.583046 ms MarkObjects: 3.896344 ms  DeleteObjects: 0.100785 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 40.850227 seconds.
+  path: Assets/MakeMeshDoubleSided
+  artifactKey: Guid(bf49c64d1b047e14ab31e03e76da6878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MakeMeshDoubleSided using Guid(bf49c64d1b047e14ab31e03e76da6878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6498617dcd63317acd713d1d4efaa466') in 0.005788 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.571109 seconds.
+  path: Assets/MakeMeshDoubleSided/MakeMesh.cs
+  artifactKey: Guid(f6acdaeac1235eb438172cbbc922d048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MakeMeshDoubleSided/MakeMesh.cs using Guid(f6acdaeac1235eb438172cbbc922d048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb3f33f3c362a038bcef5b359ad67001') in 0.318911 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 186.939563 seconds.
+  path: Assets/MakeMeshDoubleSided/MakeMesh.Tools.cs
+  artifactKey: Guid(124e18b9276a7b34c8c9b1be935966d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MakeMeshDoubleSided/MakeMesh.Tools.cs using Guid(124e18b9276a7b34c8c9b1be935966d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b05d465f1c9b40acdd5b6e3452f48771') in 0.024256 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.052553 seconds.
+  path: Assets/MakeMeshDoubleSided/Examples
+  artifactKey: Guid(82b347fbb372ce848b31514b42965bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MakeMeshDoubleSided/Examples using Guid(82b347fbb372ce848b31514b42965bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97c46e154cbd83a36b6b97a1a6c7562c') in 0.001371 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.613283 seconds.
+  path: Assets/MakeMeshDoubleSided/Examples/Materials
+  artifactKey: Guid(2f6955f87c2f93e47a78b7cdf2de8b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MakeMeshDoubleSided/Examples/Materials using Guid(2f6955f87c2f93e47a78b7cdf2de8b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2e289842757d9724863bb2cb9c1d222') in 0.001825 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.080356 seconds.
+  path: Assets/MakeMeshDoubleSided/Examples/Materials/Arm.mat
+  artifactKey: Guid(c9ab909b3ec98134fbfa239620c7cde9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MakeMeshDoubleSided/Examples/Materials/Arm.mat using Guid(c9ab909b3ec98134fbfa239620c7cde9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c145b878c2b4e03c597694255b52da5') in 0.213701 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/MakeMeshDoubleSided/Examples/Materials/Hand.mat
+  artifactKey: Guid(b7af245e995c0d242ae7c273c94af94e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MakeMeshDoubleSided/Examples/Materials/Hand.mat using Guid(b7af245e995c0d242ae7c273c94af94e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ea2dd6febdd527331fb70caf02ea98d') in 0.020139 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/MakeMeshDoubleSided/Examples/Materials/Bowl Outside.mat
+  artifactKey: Guid(563e164351b20da49adb3a31ab742482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MakeMeshDoubleSided/Examples/Materials/Bowl Outside.mat using Guid(563e164351b20da49adb3a31ab742482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76ab10e41cacd01c62e37f96d2ff597e') in 0.021892 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/MakeMeshDoubleSided/Examples/Materials/Cube.mat
+  artifactKey: Guid(65aa344d0ca274f45a77f13d431999e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MakeMeshDoubleSided/Examples/Materials/Cube.mat using Guid(65aa344d0ca274f45a77f13d431999e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a3a296d234fc3f407bdaf90076e6967') in 0.016431 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/MakeMeshDoubleSided/Examples/Materials/Bracer.mat
+  artifactKey: Guid(0692cf2de0346e64a9427466e70ca927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MakeMeshDoubleSided/Examples/Materials/Bracer.mat using Guid(0692cf2de0346e64a9427466e70ca927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2987f9e4f421b1713b64fb4168ac3f4') in 0.026560 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 218.037996 seconds.
+  path: Assets/Textures/cava_Textures/cava_BaseColor.png
+  artifactKey: Guid(8409e125f30da4c7fb8ae21a85f2e865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/cava_Textures/cava_BaseColor.png using Guid(8409e125f30da4c7fb8ae21a85f2e865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95819a1f08400ccf491b0fdb857ab03b') in 0.164941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.134187 seconds.
+  path: Assets/Textures/gallbladder_Textures/gallbladder_ColorBase.png
+  artifactKey: Guid(f028765e13dd540a2922daa770f65990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/gallbladder_Textures/gallbladder_ColorBase.png using Guid(f028765e13dd540a2922daa770f65990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f3e1dcd653924326dfb4448a6107e79') in 0.037257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.787817 seconds.
+  path: Assets/Textures/liver_Textures/Liver_BaseColor.png
+  artifactKey: Guid(56ff0db593108448bbbb850c4dd32584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/liver_Textures/Liver_BaseColor.png using Guid(56ff0db593108448bbbb850c4dd32584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc2043d3d2e885e5f3c22223d5920c27') in 0.033308 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.522754 seconds.
+  path: Assets/Textures/portal_Textures/portal_ColorBase.png
+  artifactKey: Guid(8642ccf0aa73640d299ee7774c87a446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/portal_Textures/portal_ColorBase.png using Guid(8642ccf0aa73640d299ee7774c87a446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e940f1edb6615ceec116b01c09e594c') in 0.024453 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.394912 seconds.
+  path: Assets/Textures/tumor_Textures/tumor_BaseColor.png
+  artifactKey: Guid(2519a5d2ffeb049df860411e09bb42ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/tumor_Textures/tumor_BaseColor.png using Guid(2519a5d2ffeb049df860411e09bb42ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ea47dc426484288291035cbebd71472') in 0.029362 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 99.554281 seconds.
+  path: Assets/MakeMeshDoubleSided/MakeMeshDoubleSidedManual.pdf
+  artifactKey: Guid(c7efe57202db86c4abb687a3cbfb57f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MakeMeshDoubleSided/MakeMeshDoubleSidedManual.pdf using Guid(c7efe57202db86c4abb687a3cbfb57f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e4a13fc0b4b559ee893032357d5e4f3') in 0.923715 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4557.227330 seconds.
+  path: Assets/liverU.gallbladder.double-sided.asset
+  artifactKey: Guid(b2b98f595b22b4294a8c0e154cf6ab6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/liverU.gallbladder.double-sided.asset using Guid(b2b98f595b22b4294a8c0e154cf6ab6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a16499bdf1f9ebb577e3636ba34a6bfe') in 0.413628 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/liverU.livertumor.double-sided.asset
+  artifactKey: Guid(3587e848954914d5880aaf455b8e5287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/liverU.livertumor.double-sided.asset using Guid(3587e848954914d5880aaf455b8e5287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20566ebc30693ed6ff2753ebf5b07103') in 0.035380 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/liverU.portalvein.double-sided.asset
+  artifactKey: Guid(348e1065a5c654d1b92e3e8b2a85f206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/liverU.portalvein.double-sided.asset using Guid(348e1065a5c654d1b92e3e8b2a85f206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d7d1cab7a800dddf9d3c7e1dff38150') in 0.248070 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/liverU.venacava.double-sided.asset
+  artifactKey: Guid(e032883788d474f2b81cc4f6d7d23e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/liverU.venacava.double-sided.asset using Guid(e032883788d474f2b81cc4f6d7d23e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc0a52870d4eddbf20999a37574534b9') in 0.113914 seconds 
